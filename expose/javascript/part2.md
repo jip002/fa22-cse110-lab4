@@ -50,8 +50,8 @@ Q15. == compare objects while allowing conversion, whereas === compare objects t
 Q17. the function will return array of [2, 4, 6], which every integer of the original array is doubled. This is done as the function first creates const array 'newArr', then in a for loop it uses doSomething function to double every integer from the input array, and push it to the 'newArr' array.
 
 Q19. the output is as below, where the last integer 2 is printed 1 second later.
-1
-4
-3
-2
+1               <br />
+4               <br />
+3               <br />
+2               <br />
 
