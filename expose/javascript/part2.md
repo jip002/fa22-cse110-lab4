@@ -20,36 +20,36 @@ Q10. it will display integer '3' in the console as the length of the prices arra
 
 Q11. the function will return array discounted = [50, 100, 150] just as previous sections. The return value is still correct because the calculation done in the for loop is still working since const variables it uses are not reassigned but rather declared again and again until the loop ends, so there is no reassigning of const variables hence no error, and discountedPrice is pushed normally to discounted. The reason why let variable i is working is explained in the previous section.
 
-Q12. 
-a) student.name
-b) student['Gard Year']
-c) student.greeting()
-d) student['Favorite Teacher']).name
-e) student.conrseLoad[0]
+Q12.        <br />
+a) student.name     <br />
+b) student['Gard Year']     <br />
+c) student.greeting()       <br />
+d) student['Favorite Teacher']).name        <br />
+e) student.conrseLoad[0]        <br />
 
-Q13.
-A. 32           integer 2 is converted into string, so the concatenated result is'32'
-B. 1            string '3' converted into integer, so it's 3 - 2 = 1
-C. 3            null is 0 when converted into integer, so it's 3 + 0 = 3
-D. 3null        here null is converted into string 'null', so the result is concatenated
-E. 4            true is converted into integer 1, so it's numeric operation 1 + 3
-F. 0            false converted to integer is 0, so as null, so it's 0 + 0 = 0
-G. 3undefined   string '3' is concatenated with undefined converted into string 'undefined'
-H. NaN          in mimus operation, undefined can't convert into integer, and it outputs NaN as result
+Q13.        <br />
+A. 32           integer 2 is converted into string, so the concatenated result is'32'       <br />
+B. 1            string '3' converted into integer, so it's 3 - 2 = 1        <br />
+C. 3            null is 0 when converted into integer, so it's 3 + 0 = 3        <br />
+D. 3null        here null is converted into string 'null', so the result is concatenated        <br />
+E. 4            true is converted into integer 1, so it's numeric operation 1 + 3       <br />
+F. 0            false converted to integer is 0, so as null, so it's 0 + 0 = 0      <br />
+G. 3undefined   string '3' is concatenated with undefined converted into string 'undefined'     <br />
+H. NaN          in mimus operation, undefined can't convert into integer, and it outputs NaN as result      <br />
 
-Q14.
-A. true         '2' is converted to integer 2, so 2 > 1 = true
-B. false        '2' and '12' are both strings not integer, and as string '2' is larger than the first string of '12', is '2' is bigger
-C. true         '2' is converted into integer 2, so it's 2 = 2
-D. false        === comparison compare objects without conversion, so string is not equal to integer
-E. false        true converted to integer is 1, so 1 != 2
-F. true         boolean(2) evaluated to true, which is the same type to primitive boolean value true
+Q14.        <br />
+A. true         '2' is converted to integer 2, so 2 > 1 = true      <br />
+B. false        '2' and '12' are both strings not integer, and as string '2' is larger than the first string of '12', is '2' is bigger      <br />
+C. true         '2' is converted into integer 2, so it's 2 = 2      <br />
+D. false        === comparison compare objects without conversion, so string is not equal to integer        <br />
+E. false        true converted to integer is 1, so 1 != 2       <br />
+F. true         boolean(2) evaluated to true, which is the same type to primitive boolean value true        <br />
 
 Q15. == compare objects while allowing conversion, whereas === compare objects to be true only if the two objects are the same type before conversion.
 
 Q17. the function will return array of [2, 4, 6], which every integer of the original array is doubled. This is done as the function first creates const array 'newArr', then in a for loop it uses doSomething function to double every integer from the input array, and push it to the 'newArr' array.
 
-Q19. the output is as below, where the last integer 2 is printed 1 second later.
+Q19. the output is as below, where the last integer 2 is printed 1 second later.(please igone br/ command)   <br />
 1               <br />
 4               <br />
 3               <br />
